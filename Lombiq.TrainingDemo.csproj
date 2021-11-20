@@ -11,6 +11,7 @@
     <DefaultItemExcludes>$(DefaultItemExcludes);.git*;node_modules\**;Tests\**</DefaultItemExcludes>
     <OrchardCoreLibrariesRoot Condition="Exists('$(SolutionDir)src\OrchardCore')">$(SolutionDir)src\OrchardCore</OrchardCoreLibrariesRoot>
     <OrchardCoreModulesRoot Condition="Exists('$(SolutionDir)src\OrchardCore.Modules')">$(SolutionDir)src\OrchardCore.Modules</OrchardCoreModulesRoot>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
 
   <Import Project="..\..\Utilities\Lombiq.Npm.Targets\Lombiq.Npm.Targets.props" />
